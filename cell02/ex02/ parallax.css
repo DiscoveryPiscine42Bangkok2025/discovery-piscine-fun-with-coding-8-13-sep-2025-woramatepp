@@ -1,0 +1,45 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg1 {
+  background-image: url("https://admin.curriculum.kmitl.ac.th/api/media/file/1519798709677.jpeg");
+}
+
+.bg2 {
+  background-image: url("https://storage.googleapis.com/techsauce-prod/ugc/uploads/2021/3/%E0%B8%A0%E0%B8%B2%E0%B8%9E_Perspective_%E0%B8%A3%E0%B8%9E_(2).jpg");
+}
+
+.caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.caption .text {
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 20px;
+  font-size: 2em;
+  border-radius: 10px;
+}
+
+.dark {
+  padding: 60px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
